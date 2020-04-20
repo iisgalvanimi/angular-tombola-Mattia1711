@@ -10,7 +10,9 @@ import { CartellaComponent } from './cartella/cartella.component';
     CartellaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CartellaComponent,
+    AppComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
