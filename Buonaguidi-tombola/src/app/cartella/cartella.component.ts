@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CartellaComponent implements OnInit {
   @Input() numeriEstratti: string[];
-  @Input() ultimoNumero: string[];
+  @Input() ultimoNumero: string;
 
   constructor() { }
 
