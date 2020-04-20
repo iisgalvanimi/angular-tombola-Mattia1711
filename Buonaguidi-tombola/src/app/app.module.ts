@@ -11,8 +11,6 @@ import { CartellaComponent } from './cartella/cartella.component';
   ],
   imports: [
     BrowserModule,
-    CartellaComponent,
-    AppComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
